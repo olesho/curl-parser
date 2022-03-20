@@ -1,8 +1,5 @@
-# curl-parser
-Parse CURL request string to Golang http.Request
+package main
 
-## Example
-```
 import (
 	"fmt"
 	"github.com/olesho/curl-parser"
@@ -30,4 +27,3 @@ func main() {
 
 	fmt.Println(string(b))
 }
-```
