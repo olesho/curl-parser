@@ -2,6 +2,8 @@
 Parse CURL request string to Golang http.Request
 
 ## Example
+In Google Chrome developer console `Inspect -> Network` choose any request. Right-click, select `Copy -> Copy as cURL`. Use the copied content as an input for `parser.Parse` function.
+
 ```
 import (
 	"fmt"
